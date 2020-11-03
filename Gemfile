@@ -21,6 +21,8 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # gem 'redis', '~> 4.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+gem 'solidus'
+gem 'solidus_auth_devise'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
