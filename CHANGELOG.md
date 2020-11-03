@@ -10,3 +10,4 @@ The application configuration version is in `internal/pkg/version/version.go`.
 ## [Unreleased]
 
 - Initial creation of project.
+- Added generator items.
