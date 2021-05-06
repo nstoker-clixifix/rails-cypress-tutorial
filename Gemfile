@@ -16,17 +16,17 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.7'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '>= 6'
-gem 'solidus'
-gem 'solidus_auth_devise'
+gem 'sass-rails', '>= 6.0.0'
+gem 'solidus', '>= 2.11.0'
+gem 'solidus_auth_devise', '>= 2.5.1'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker', '~> 4.0'
+gem 'webpacker', '~> 4.3', '>= 4.3.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -39,7 +39,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.
-  gem 'web-console', '>= 3.3.0'
+  gem 'web-console', '>= 4.0.4'
 end
 
 install_if -> { RUBY_PLATFORM =~ /darwin/ } do
